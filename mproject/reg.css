@@ -1,0 +1,83 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  /*background: #34495e;*/
+  /*background: yellow;*/
+  background-image:url("img/food2.jpg");
+}
+.header{
+  /*background-color: #1a3333;*/
+  background: green;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  top: 0px;
+  width: 100%;
+  padding: 5px;
+}
+form{
+  width: 35%;
+  padding: 50px;
+  border: 1px solid #cbcbcb;
+  margin: 5px auto;
+  background-color: #191919;
+}
+.textInput{
+  margin-top: 2px;
+  height: 24px;
+  text-align: center;
+  background: none;
+  border: 2px solid #08488c;
+  margin: 2px auto;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  padding: 14px 24px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 24px;
+  transition: 0.50s;
+}
+/*.textInput:focus{
+  width: 225px;
+  border-color: #2ecc71; 
+}*/
+
+.rgst{
+  background: none;
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #08488c;
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+  border-radius: 24px;
+  transition: 0.50s;
+  transform: translate(30%,10%);
+}
+.rgst:hover{
+  background: #20a10e;
+}
+td{
+  text-align: left;
+  color: white;
+}
+p{
+  text-align: center;
+  color: #2ecc71;
+}
+#error_msg{
+  width: 50%;
+  margin: 5px auto;
+  height: 30px;
+  border: 2px solid #FF0000;
+  background: #ed6d6d;
+  color: #e30e0e;
+  text-align: center;
+  padding-top: 10px;
+}
+.a{
+  color: #2ecc71;
+}
